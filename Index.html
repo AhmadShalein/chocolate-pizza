@@ -4,73 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Chocolate Pizza</title>
 </head>
 <body>
     <header>
         <div id="left-side">
-            <img src="img/logo.png" alt="logo">
-            <h1>
-                Delicious
-            </h1>
-            <p>
-                THE BEST FOOD BLOG ON THE WEB
-            </p>
+            <div id="logo">
+                <img src="img/logo.png" alt="logo" id="checking">
+            </div>
+                 <div id="div">
+                    <div id="h1">
+                       <h1>
+                      Delicious
+                       </h1>
+                    </div>
+                </div>
+            <div id="divPar">
+                <p>
+                    THE BEST FOOD BLOG ON THE WEB
+                </p>
+            </div>
         </div>
         <nav id="right-side">
-            <img src="img/fb-icon.png" alt="fb">
-            <img src="img/twit-icon.png" alt="twt">
-            <img src="img/gp-icon.png" alt="g+">
-            <img src="img/insta-icon.png" alt="insta">
-            <img src="img/flic-icon.png" alt="flic">
-            <img src="img/pint-icon.png" alt="pint">
-            <img src="img/rss-icon.png" alt="rss">
-            <img src="img/mail-icon.png" alt="mail">
+            <div id="fb">
+                <img src="img/fb-icon.png" alt="fb">
+                <img src="img/twit-icon.png" alt="twt">
+                <img src="img/gp-icon.png" alt="g+">
+                <img src="img/insta-icon.png" alt="insta">
+                <img src="img/flic-icon.png" alt="flic">
+                <img src="img/pint-icon.png" alt="pint">
+            </div>
+            <div id="wifi">
+                <img src="img/rss-icon.png" alt="rss">
+                <img src="img/mail-icon.png" alt="mail">
+            </div>
         </nav>
     </header>
-    <div class="hr">
+    <div>
         <hr>
     </div>
     <main>
-        <section class="choco-pizza">
-            <div id="pos1">
-                <h2>
-                    Chocolate Pizza
-                </h2>
-                <p>
-                    POSTED ON 15 DEC 2013 / DESSERTS
-                </p>
+        <div id="pos1">
+                <div id="pos11">
+                    <h2>
+                        Chocolate Pizza
+                    </h2>
+        </div>
+                <div id="pos12">
+                    <p>
+                       POSTED ON 15 DEC 2013 / DESSERTS
+                    </p>
+                </div>
             </div>
             <div id="pos2">
                 <img src="img/print-icon.png" alt="print">
                 <p>PRINT</p>
             </div>
-        </section>
         <section id="choco-image">
-            <img src="img/choco-pizza.png" alt="choco-pizza">
+            <img src="img/choco-pizza.png" alt="choco-img">
         </section>
-        <section class="choco-pizza">
+        <section class="choco-para">
             <p class="p">For the fig-swirl:Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve
                 all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring
                 frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside an dlet cool</p>
+                <br>
             <p class="p">Ice cream:In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely
                 dissolved and the milk is just barely lukewarm.Wish in the egg yolks. Set mixture in the fridge and wait
                 until the fig mixture is cooled.</p>
+                <br>
             <p class="p"> Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer
                 instructions,i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the
                 nuts.Countinue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass
                 tupperware.Freeze for at least twohours before serving.</p>
+                <br>
         </section>
         <div>
             <form id="checkbox">
                 <fieldset>
-                    <div id="item1">
+                    <div id="itemOne">
                         <input type="checkbox" id="item1">
-                        <label for="item1">1 1/2 cups milks</label>
+                        <label for="nameField">1 1/2 cups milks</label>
                         <br>
                         <input type="checkbox" id="item2">
-                        <label for="item2">1/2 cup mascarpone</label>
+                        <label for="nameField">1/2 cup mascarpone</label>
                         <br>
                         <input type="checkbox" id="item3">
                         <label for="nameField">1/2 tsp pink salt </label>
@@ -85,7 +105,7 @@
                         <label for="nameField">1 1/2 cups heavy cream</label>
                         <br>
                     </div>
-                    <div id="item2">
+                    <div id="itemTwo">
                         <input type="checkbox" id="item7">
                         <label for="nameField">1/3 granulated sugar</label>
                         <br>
@@ -104,15 +124,20 @@
                 </fieldset>
               </form>
         </div>
-        <div class="hr">
+        <br>
+        <div>
             <hr>
         </div>
+        <br>
         <div>
             <h3 id="vanTit">Vanessa Stevenson</h3>
             <img src="img/van-pic.png" alt="van" id="vanImg">
             <p id="vanPara">Food enthusiast, photography fan. Add a pinch of raw foodism and that's preety much who iam.</p>
             <button id="vanBut">SHARE RECIPE</button>
+            <br>
         </div>
+        <br>
+        <br>
     </main>
     <footer>
         <div id="footImg">
